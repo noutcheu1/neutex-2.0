@@ -37,7 +37,7 @@ checkpoints_dir='./checkpoints/'
 resume_checkpoints_dir=$checkpoints_dir
 
 save_iter_freq=10000
-niter=500000
+niter=500
 niter_decay=0
 
 n_threads=0
@@ -46,6 +46,13 @@ train_and_test=1
 test_num=1
 print_freq=20
 test_freq=10000
+
+
+# Installation de PyTorch
+pip install torch==1.10.0+cu111 torchvision==0.11.1+cu111 torchaudio===0.10.0+cu111 -f https://download.pytorch.org/whl/torch_stable.html
+
+# Installation de Trimesh
+pip install trimesh
 
 
 python3 train.py  \

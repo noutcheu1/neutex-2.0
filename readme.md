@@ -6,7 +6,7 @@ Paper: [https://arxiv.org/abs/2103.00762](https://arxiv.org/abs/2103.00762)
 ### Run on the provided DTU scene
 ```bash
 cd run
-bash dtu.sh 114
+bash dtu.sh 114f
 ```
 (Install any missing library from pip)
 
